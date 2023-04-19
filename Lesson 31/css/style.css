@@ -1,0 +1,49 @@
+body {
+  background-color: #333;
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 2rem;
+}
+
+.wrapper {
+  padding: 50px;
+  min-height: 100%;
+}
+
+
+
+
+
+
+/* ---------------------------------------------------- */
+
+.block-wrapper {
+  position: relative;
+}
+.title::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: blue;
+  position: absolute;
+  top: 15px;
+  left: -17px;
+  
+}
+
+
+.title::after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: 15px;
+  left: 300px;
+}
+
+
